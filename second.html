@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tasks</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="libs/jquery-3.5.1.js"></script>
+</head>
+<body>
+    <div id="taskList" class="main">
+        <h2>список задач</h2>
+        <a href="first.html">добавить задачи</a>
+        <table>
+            <div id="pick">
+                <p id="old">от ближайших к  будущим</p>
+                <p id="new">от будущих к ближайшим</p>
+            </div>
+        </table>
+        <table id="table">
+            <tr>
+                <th>название</th>
+                <th>описание</th>
+                <th>дедлайн</th>
+                <th>участники</th>
+            </tr>
+        </table>
+        <span></span>
+        <button id='del' type="button">удалить выделенные</button>
+    </div>
+    <script src="js/second.js"></script>
+</body>
+</html>

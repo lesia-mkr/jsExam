@@ -1,0 +1,88 @@
+* { box-sizing: border-box;}
+body {
+    margin-top: 25px;
+    font-family: Comic, Comic, cursive;
+    color: #6F5F5E;
+}
+a {
+    margin: 15px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 2px solid #8CC152;
+}
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    background-color: #F0F8FF;
+    border: 1px solid #9F8170;
+}
+h2 {
+    text-align: center;
+}
+form {
+    margin: auto;
+    padding: 15px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 5px;
+}
+button {
+    cursor: pointer;
+    outline: none;
+    margin: 5px;
+    color: #6F5F5E; /*#6F5F5E*/
+    font-weight: bold;
+    max-width: 150px;
+    background-color: #C3B091;
+    border-radius: 5px;
+}
+#nameOfTeammate {
+    display: none;
+}
+.displaynone{
+    display: inline-block;
+}
+.error {
+    border-bottom: 3px solid #FF0000;
+}
+.error:focus {
+    border: 3px solid #FF0000;
+}
+.valid {
+    border-bottom: 3px solid #8CC152;
+}
+#pick{
+    display: flex;
+}
+div#pick p{
+    background-color: #C3B091;
+    color: #6F5F5E;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+}
+input,
+textarea {
+    background-color: #F0F8FF;
+    padding: 3px;
+    text-decoration: none;
+    outline: none;
+    border: 3px solid #F0F8FF;
+    border-bottom: 3px solid #9F8170;
+
+}
+input:focus,
+textarea:focus {
+    outline: none;
+    border: 3px solid #6F5F5E;
+}
+.chosen {
+    background-color: #C3B091;
+}
+.tab:hover {
+    background-color: #C3B091;
+}

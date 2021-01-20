@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add task 1</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="libs/jquery-3.5.1.js"></script>
+</head>
+<body>
+    <div class="main" id='mainDiv'>
+        <h2>добавление задачи</h2>
+        <a href="second.html">список задач</a>
+        <form id='add' action="#" method="post">
+            <label>название:<input type="text" id="taskname"></label>
+            <label>описание:<textarea id='description' ></textarea></label>
+            <label><input type="date" id="date" ></label>
+            <button id='addToTask' type="submit" >добавить участников</button>
+            <textarea id="nameOfTeammate" type="text" placeholder="вводите участников через запятую :)"></textarea>
+            <button id='mainBtn' type="submit" >отправить задачу</button>
+        </form>
+        <span id="errormessage"></span>
+        <span id="errordescription"></span>
+    </div>
+    
+    <script src="js/first.js"></script>
+</body>
+</html>
